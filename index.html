@@ -13,9 +13,9 @@
 
 <body>
     <header>
-        <div><img src="./imgs/logo.jpg" alt=""></div>
+        <div><img src="./imgs/logo.jpg" alt="" id="indexhtml"></div>
         <div>
-            <img src="./imgs/my.jpg" alt="">
+            <img src="./imgs/my.jpg" alt="" id='myhtml'>
             <img src="./imgs/xiazai.jpg" alt="">
         </div>
     </header>
@@ -31,7 +31,7 @@
         </div>
         <div class="menu">
             <ul>
-                <li>
+                <li id="twohousthtml">
                     <!-- <div class="one"> -->
                     <img src="./imgs/index_03.png" alt="">
                     <!-- </div> -->
@@ -40,19 +40,19 @@
                 <li>
                     <div class="one">
                         <img src="./imgs/index_05.png" alt="">
-                        <p>二手房</p>
+                        <p>新房</p>
                     </div>
                 </li>
                 <li>
                     <div class="one">
                         <img src="./imgs/index_07.png" alt="">
-                        <p>二手房</p>
+                        <p>租房</p>
                     </div>
                 </li>
                 <li>
                     <div class="one">
                         <img src="./imgs/index_09.png" alt="">
-                        <p>二手房</p>
+                        <p>卖房</p>
                     </div>
                 </li>
             </ul>
@@ -189,6 +189,20 @@ setrem();
 window.onresize =function(){
     setrem();
 };
+
+$("#myhtml").on('click',function(){
+    window.location.href='my.html';
+})
+$("#twohousthtml").on('click',function(){
+    window.location.href='twohahoust.html';
+})
+$("#indexhtml").on('click',function(){
+    window.location.href='index.html';
+})
+$(document).on('swipeRight',function(){
+    window.history.back(-1);
+})
+
 </script>
 
 </html>

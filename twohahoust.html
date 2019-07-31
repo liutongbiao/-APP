@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <div><img src="./imgs/logo.jpg" alt=""></div>
+        <div><img src="./imgs/logo.jpg" alt="" id="indexhtml"></div>
         <div>
             <img src="./imgs/my.jpg" alt="">
             <img src="./imgs/xiazai.jpg" alt="">
@@ -243,7 +243,8 @@
     </footer>
 
 </body>
-<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+<!-- <script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script> -->
+<script src="https://liutongbiao.github.io/js/zepto.js"></script>
 <script src="./js/twohouse.js"></script>
 <script>
     function setrem() {
@@ -255,6 +256,10 @@
     window.onresize = function () {
         setrem();
     };
+    $(".list").on('click',function(){
+    window.location.href='details.html';
+})
+
 </script>
 
 </html>

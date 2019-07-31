@@ -31,3 +31,13 @@ $(".zhezhao").on('tap',function(){
 $('section .menu').on('tap',function(){
     $(".zhezhao").show();
 })
+
+
+$(document).on('swipeRight',function(){
+    window.history.back(-1);
+})
+
+
+$("#indexhtml").on('click',function(){
+    window.location.href='index.html';
+})
