@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/my.css">
+    <style></style>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img src="./imgs/my.jpg" alt="">
+            <img src="./imgs/xiazai.jpg" alt="">
+        </div>
+        <div class="headportrait">
+            <img src="./imgs/urse2.png" alt="">
+        </div>
+        <div class="register">
+            <p>登录</p>
+        </div>
+    </header>
+    <section>
+        <ul>
+            <li>
+                <div class="fl">
+
+                    <p><img src="./imgs/icon1.png" alt=""></p>
+                    <p>我关注的房源</p>
+                </div>
+                <div class="fr">
+                    <img src="./imgs/right.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="fl">
+
+                    <p><img src="./imgs/icon2.png" alt=""></p>
+                    <p>我关注的小区</p>
+                </div>
+                <div class="fr">
+                    <img src="./imgs/right.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="fl">
+
+                    <p><img src="./imgs/icon3.png" alt=""></p>
+                    <p>我关注的新房</p>
+                </div>
+                <div class="fr">
+                    <img src="./imgs/right.png" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="fl">
+
+                    <p><img src="./imgs/icon4.png" alt=""></p>
+                    <p>我关注的记录</p>
+                </div>
+                <div class="fr">
+                    <img src="./imgs/right.png" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script src="https://liutongbiao.github.io/js/zepto.js"></script>
+<script>
+function setrem() {
+    var windowwidth = window.innerWidth;
+    var newpx = (windowwidth / 320) * 100;
+    $('html').css('fontSize', newpx);
+}
+setrem();
+window.onresize =function(){
+    setrem();
+};
+</script>
+
+</html>

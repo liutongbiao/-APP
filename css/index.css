@@ -1,0 +1,217 @@
+
+
+section{
+    background-color: #F5F5F5;
+}
+section .fouce{
+    height: 2.25rem;
+    width: 100%;
+    position: relative;
+}
+section .fouce>img{
+    height: 100%;
+    width: 100%;
+}
+section .fouce .input{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .fouce .input p{
+    height: 0.20rem;
+    width: 0.20rem;
+    position: absolute;
+    left: 0.05rem;
+    top: 0.08rem;
+}
+section .fouce .input p img{
+    height: 100%;
+    width: 100%;
+}
+section .fouce .input input{
+    height: 0.32rem;
+    width: 2.88rem;
+    outline: none;
+    text-indent: 0.3rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px  5px #ccc;
+}
+section .fouce .input input::placeholder{
+    color: #999;
+    font-size: 0.12rem;
+}
+section .menu{
+    height: 1.1rem;
+    width: 100%;
+    background-color: #FF8A00;
+}
+section .menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+section .menu ul li{
+    width: 25%;
+    height: 100%;
+    font-size: 0.12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+} 
+section .menu ul li img{
+    width:0.56rem;
+}
+section>img{
+    width: 100%;
+}
+section .hothouse .title{
+    height:0.6rem;
+    background-color: #FF8A00;
+    margin-top: 0.2rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.2rem;
+}
+section .hothouse .title h1{
+    font-size: 0.18rem;
+}
+section .hothouse .title span{
+    font-size: 0.14rem;
+}
+
+section .hothouse .hotlist{
+    /* margin-right: 0.2rem; */
+    background: white;
+}
+section .hothouse .hotlist li{
+    height: 1.4rem;
+    font-size: 0.12rem;
+    display: flex;
+    margin: 0 0.2rem;
+    align-items: center;
+    line-height: 0.25rem;
+    border-bottom: red solid 1px;
+    overflow: hidden;
+}
+section .hothouse .hotlist li img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+section .hothouse .hotlist li h1{
+    width: 90%;
+    font-size: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+section .hothouse .hotlist li>div{
+    width: 100%;
+}
+section .hothouse .hotlist li>div:nth-child(2){
+   margin-left: 0.1rem;
+}
+section .hothouse .hotlist li .typeprice{
+    display:flex;
+    justify-content: space-between;
+    /* width: 90%; */
+}
+section .hothouse .hotlist li .typeprice .totalprice{
+    color: #FF8A00;
+    font-weight: 600;
+}
+section .hothouse .hotlist li .adrprice{
+    display:flex;
+    justify-content: space-between;
+    color: #999;
+    /* width: 90%; */
+}
+section .hothouse .hotlist li .trait span{
+   padding: 0.02rem 0.06rem;
+   background-color: #e4eaee;
+   margin-right: 0.05rem;
+   color: #849aae;
+}
+section .sectionbottom{
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    background: white;
+    padding: 0 0.2rem;
+
+}
+section .sectionbottom .header{
+    height: 0.56rem;
+    /* border-bottom: white solid 2px; */
+    display: flex;
+    font-size: 0.18rem;
+    align-items: center;
+    border-bottom: #FF8A00 solid 2px;
+    
+}
+section .sectionbottom .header p{
+    flex:1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section .sectionbottom .header .p{
+border-bottom: #FF8A00 solid 2px;
+}
+section .sectionbottom .content div{
+    display: flex;
+}
+section .sectionbottom .content div:nth-child(2){
+    display: none;
+}
+section .sectionbottom .content ul{
+    flex:1;
+    margin-left: 0.2rem;
+    padding: 0.2rem 0;
+}
+section .sectionbottom .content ul li{
+    line-height: 0.25rem;
+}
+
+
+
+.position{
+    height: 0.4rem;
+    width: 100%;
+    display: flex;
+    font-size: 0.12rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(34, 33, 33,0.5);
+    color: white;
+}
+.position p:nth-child(1){
+    height: 100%;
+    line-height: 0.18rem;
+    color: white;
+    width: 60%;
+    border-radius: 6px;
+    background: url('../imgs/download.png') no-repeat 0.2rem center;
+    background-size: auto 0.26rem;
+}
+.position p:nth-child(2){
+    width: 40%;
+    line-height: 0.4rem;
+    text-align: center;
+    height: 100%;
+    background:#FF8A00 ;
+    background-size: auto 0.26rem;
+}
+.position p>span{
+    margin-left: 0.6rem;
+}
+.position p>span:nth-child(1){
+   font-size: 0.16rem;
+}

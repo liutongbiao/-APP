@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 0;
+    background: rgb(231, 230, 230);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ul{
+   list-style-type: none;
+}
+header{
+    height: 1.85rem;
+    background: url('../imgs/bg1.png') no-repeat ;
+    background-size: cover;
+    border-bottom: red solid 2px;
+}
+header>.top{
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header>.top>img{
+    height: 0.4rem;
+    margin-right:0.16rem;
+}
+header .headportrait{
+    height: 0.52rem;
+    display: flex;
+    justify-content: center;
+}
+header .headportrait img{
+    height: 0.52rem;
+}
+header .register{
+    font-size: 0.12rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+header .register p{
+    width: 0.66rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    border: white 1px solid;
+    
+}
+section ul{
+    padding: 0 0.2rem;
+    font-size: 0.12rem;
+    margin-top: 0.1rem;
+    background: white;
+}
+section ul li{
+    display: flex;
+    justify-content: space-between;
+    height: 0.48rem;
+    border-bottom:1px solid #ccc; 
+    align-items: center;
+}
+section ul li .fl{
+    display: flex;
+    align-items: center;
+}
+section ul li .fl img{
+    width: 0.16rem;
+    margin-right: 0.05rem;
+}
+section ul li .fr img{
+    width: 0.08rem;
+}

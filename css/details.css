@@ -1,0 +1,278 @@
+section .banner{
+    width: 100%;
+    height: 1.85rem;
+    position: relative;
+}
+section .banner img{
+    width: 100%;
+    height: 100%;   
+}
+section .banner p{
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+  font-size: 0.16rem;
+  color: white;
+}
+section .headerinfo{
+    height: 1.44rem;
+    padding: 0.2rem;
+    background: white;
+}
+section .headerinfo h1{
+    font-size: 0.18rem;
+}
+section .headerinfo h2{
+    font-size: 0.14rem;
+    line-height: 0.36rem;
+    font-weight: 500;
+}
+section .headerinfo h2>span{
+    color: red;
+}
+section .headerinfo h3{
+    font-size: 0.12rem;
+    font-weight: 500;
+    color: #999;
+    margin-bottom: 0.2rem;
+}
+section .headerinfo p span{
+    font-size: 0.12rem;
+    padding: 5px;
+    background: #DEE9F0;
+    margin-right: 0.1rem;
+    margin-top: 0.2rem;
+    color:rgb(148, 167, 179) ;
+}
+section .listinfo ul{
+    margin-top: 0.2rem;
+    background: white;
+    padding: 0 0.2rem;
+    font-size: 0.12rem;
+    
+}
+section .listinfo ul li{
+    display: flex;
+    line-height: 0.5rem;
+    border-bottom: #ccc 1px solid;
+}
+section .listinfo ul li p{
+    flex:1;
+}
+section .specialty{
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+    background: white;
+}
+section .specialty h1,section .typepoints h1{
+    color:#FF8A00;
+    font-size: 0.16rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-bottom: #ccc 1px solid;
+}
+section .specialty p{
+    padding: 0.2rem 0;
+    font-size: 0.12rem;
+    border-bottom: #ccc 1px solid;
+}
+section .specialty .more{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.14rem;
+    text-align: center;
+    color: #999;
+}
+
+section .typepoints{
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+    background: white;
+}
+
+section .typepoints ul li{
+    display: flex;
+    height: 1.2rem;
+    border-bottom: #FF8A00 1px solid;
+    align-items: center;
+}
+section .typepoints ul li img{
+    width: 0.7rem;
+    height: 0.7rem;
+}
+section .typepoints ul li p{
+    font-size: 0.12rem;
+    margin-left: 0.1rem;
+    line-height: 0.26rem;
+}
+section .typepoints ul li p:nth-child(1){
+    font-size: 0.14rem;
+    font-weight: 600;
+}
+section .typepoints ul li p>span{
+    font-size: 0.12rem;
+    padding:0.02rem 5px;
+    background: #DEE9F0;
+    margin-right: 0.1rem;
+    margin-top: 0.2rem;
+    color:rgb(148, 167, 179) ;
+}
+section .school{
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+    background: white;
+}
+section .school dl dt{
+    color:#333;
+    font-size: 0.16rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-bottom: #ccc 1px solid;
+    font-weight: 600;
+}
+section .school dl dd{
+    border-bottom: #ccc 1px solid;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.12rem;
+}
+section .school dl dd span{
+    color:#999;
+}
+section .school dl dd:last-child{
+    color:#999;
+    text-align: center;
+}
+section .map{
+    margin-top: 0.2rem;
+    padding: 0 0.2rem 0.2rem;
+    background: white;
+}
+
+
+section .map h1{
+    color:#333;
+    font-size: 0.16rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-bottom: #ccc 1px solid;
+    font-weight: 600;
+}
+
+#mapdiv{
+    padding-bottom: 0.2rem;
+    width: 100%;
+    height: 1.35rem;
+    padding-bottom: 0.2rem;
+}
+
+section .recommend {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+    background: white;
+}
+section .recommend li{
+    padding-bottom: 0.2rem;
+    border-bottom: red solid 1px;
+}
+section .recommend li>div:first-child{
+    height: 1.1rem;
+    font-size: 0.12rem;
+    display: flex;
+    align-items: center;
+    line-height: 0.25rem;
+    overflow: hidden;
+}
+section .recommend li>div>div:nth-child(1){
+    margin-right: 0.1rem;
+}
+section .recommend li img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+section .recommend li h1{
+    width: 90%;
+    font-size: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+section .recommend li>div{
+    width: 100%;
+}
+section .recommend li>div:nth-child(2){
+   margin-left: 0.1rem;
+}
+section .recommend li .typeprice{
+    display:flex;
+    justify-content: space-between;
+}
+section .recommend li .typeprice .totalprice{
+    color: #FF8A00;
+    font-weight: 600;
+}
+section .recommend li .adrprice{
+    display:flex;
+    justify-content: space-between;
+    color: #999;
+}
+section .recommend li .trait span{
+   padding: 0.02rem 0.06rem;
+   background-color: #e4eaee;
+   margin-right: 0.05rem;
+   color: #849aae;
+}
+section .recommend li>div>p{
+    font-size: 0.12rem;
+    padding: 0.05rem;
+    background: rgb(231, 230, 230);
+    position: relative;
+}
+section .recommend li>div>p span{
+   position: absolute;
+   top: -0.12rem;
+   left: 0.1rem;
+   color:rgb(231, 230, 230);
+}
+section .recommend>p{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #999;
+
+}
+
+footer{
+    margin-bottom: 0.5rem;
+}
+
+.position{
+    height: 0.4rem;
+    width: 100%;
+    display: flex;
+    font-size: 0.12rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+}
+.position p:nth-child(1){
+    height: 100%;
+    line-height: 0.4rem;
+    text-align: center;
+    color: white;
+    width: 60%;
+    border-radius: 6px;
+    background:#FF8A00 url('../imgs/user.png') no-repeat 0.2rem center;
+    background-size: auto 0.26rem;
+}
+.position p:nth-child(2){
+    width: 40%;
+    line-height: 0.4rem;
+    text-align: center;
+    height: 100%;
+    border-radius: 6px;
+    background: url('../imgs/xin.png') no-repeat 0.2rem center;
+    background-size: auto 0.26rem;
+}
